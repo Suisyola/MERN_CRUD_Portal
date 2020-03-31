@@ -5,13 +5,18 @@ There are 2 projects,
 1. streams-backend
 2. streams-frontend
 
+<br/><br/>
 
-How to start the project
+<h2>How to start the project</h2>
 
-streams-backend
+<h3>streams-backend</h3>
+
 1. modify the credentials for MongoDB in the file '.env'
+   <br/>
 2. issue 'node server | node my-transport-process.js'
 
+<br/><br/>
 
-streams-frontend
-1. issue 'npm start' 
+<h3>streams-frontend</h3>
+
+1. issue 'npm start'

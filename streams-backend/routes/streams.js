@@ -1,8 +1,10 @@
 const router = require('express').Router();
+const logger = require('../logger');
 let Stream = require('../models/stream');
 
 // Get all streams
 router.route('/').get((req, res) => {
+	logger.info('Getting all streams');
 	Stream.find()
 		.then((streams) => res.json(streams))
 		.catch((err) => res.status(400).json('Error: ' + err));

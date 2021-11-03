@@ -16,7 +16,7 @@
 		"mongoose": "^5.9.6",
 		"pino": "^6.0.0",
 		"through2": "^3.0.1",
-		"validator": "^13.0.0"
+		"validator": "^13.7.0"
 	},
 	"devDependencies": {
 		"pino-pretty": "^3.6.1"
